@@ -1,3 +1,6 @@
 def find_max_value(array)
-  # Add your solution here
+  sorted_array = []
+
+  sorted_array = array.sort()
+  return sorted_array.pop()
 end
